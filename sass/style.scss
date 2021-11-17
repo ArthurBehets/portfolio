@@ -1,0 +1,43 @@
+html{
+    width : 100%;
+}
+body{
+    width : 100%;
+}
+
+// NAVBAR
+@media screen and (min-width : 993px) {
+    .myNav{
+        &__links{
+            margin-left : 25%;
+            &-items{
+                display : flex;
+                justify-content: space-around;
+                width : 75%;
+                &-dropdown{
+                    &-list{
+                        &-a{
+                            color : #f8f9fa;
+                            &:hover{
+                                color : #343a40;
+                            }
+                            &:active{
+                                background-color : #e9ecef;
+                            }
+                        }
+                        &-p{
+                            color : #f8f9fa;
+                            margin : 0;
+                            &:hover{
+                                background-color : #212529;
+                                color : #f8f9fa;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// NAVBAR END

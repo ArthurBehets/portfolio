@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurBehets/portfolio.git"
+  },
+  "author": "Behets Wydemans Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthurBehets/portfolio/issues"
+  },
+  "homepage": "https://github.com/ArthurBehets/portfolio#readme",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
