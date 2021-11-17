@@ -6,32 +6,94 @@ body {
   width: 100%;
 }
 
-@media screen and (min-width: 993px) {
-  .myNav__links {
-    margin-left: 25%;
-  }
-  .myNav__links-items {
-    display: flex;
-    justify-content: space-around;
-    width: 75%;
-  }
-  .myNav__links-items-dropdown-list-a {
-    color: #f8f9fa;
-  }
-  .myNav__links-items-dropdown-list-a:hover {
-    color: #343a40;
-  }
-  .myNav__links-items-dropdown-list-a:active {
-    background-color: #e9ecef;
-  }
-  .myNav__links-items-dropdown-list-p {
-    color: #f8f9fa;
-    margin: 0;
-  }
-  .myNav__links-items-dropdown-list-p:hover {
-    background-color: #212529;
-    color: #f8f9fa;
-  }
+main {
+  width: 100%;
+  padding-top: 40px;
+  background-color: #ced4da;
+  height: 2000px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: larger;
+}
+
+.myNav__links {
+  margin-left: 25%;
+}
+.myNav__links-items {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+}
+.myNav__links-items-dropdown-list-a {
+  color: #f8f9fa;
+}
+.myNav__links-items-dropdown-list-a:hover {
+  color: #343a40;
+}
+.myNav__links-items-dropdown-list-a:active {
+  background-color: #e9ecef;
+}
+.myNav__links-items-dropdown-list-p {
+  color: #f8f9fa;
+  margin: 0;
+}
+.myNav__links-items-dropdown-list-p:hover {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+.presentation {
+  margin-left: 10%;
+  width: 80%;
+}
+.presentation__div {
+  justify-content: space-between;
+}
+.presentation__div-motivation-title {
+  margin-left: 10%;
+}
+.presentation__div-motivation p {
+  text-align: justify;
+}
+.presentation__div-about {
+  display: flex;
+  flex-direction: column;
+  border: 15px solid;
+  border-image: linear-gradient(#0b2c6e, #897d2f) 10;
+  padding: 20px;
+  height: 100%;
+}
+.presentation__div-about-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.presentation__div-about-head-title {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.presentation__div-about-head-img {
+  width: 30%;
+  position: relative;
+  right: 0;
+}
+.presentation__div-about-infos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.presentation__div-about-infos-langages i {
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=style.css.map */

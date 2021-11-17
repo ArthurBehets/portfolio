@@ -4,34 +4,46 @@ html{
 body{
     width : 100%;
 }
-
+main{
+    width : 100%;
+    padding-top : 40px;
+    background-color: #ced4da;
+    height : 2000px; // TODO supprimer cette ligne
+}
+h1{
+    margin : 0;
+}
+h2{
+    font-size : x-large;
+}
+h3{
+    font-size: larger;
+}
 // NAVBAR
-@media screen and (min-width : 993px) {
-    .myNav{
-        &__links{
-            margin-left : 25%;
-            &-items{
-                display : flex;
-                justify-content: space-around;
-                width : 75%;
-                &-dropdown{
-                    &-list{
-                        &-a{
-                            color : #f8f9fa;
-                            &:hover{
-                                color : #343a40;
-                            }
-                            &:active{
-                                background-color : #e9ecef;
-                            }
+.myNav{
+    &__links{
+        margin-left : 25%;
+        &-items{
+            display : flex;
+            justify-content: space-around;
+            width : 75%;
+            &-dropdown{
+                &-list{
+                    &-a{
+                        color : #f8f9fa;
+                        &:hover{
+                            color : #343a40;
                         }
-                        &-p{
+                        &:active{
+                            background-color : #e9ecef;
+                        }
+                    }
+                    &-p{
+                        color : #f8f9fa;
+                        margin : 0;
+                        &:hover{
+                            background-color : #212529;
                             color : #f8f9fa;
-                            margin : 0;
-                            &:hover{
-                                background-color : #212529;
-                                color : #f8f9fa;
-                            }
                         }
                     }
                 }
@@ -39,5 +51,57 @@ body{
         }
     }
 }
-
 // NAVBAR END
+
+// MAIN
+// ABOUT
+.presentation{
+    margin-left : 10%;
+    width : 80%;
+    &__div{
+        justify-content: space-between;
+        &-motivation{
+            &-title{
+                margin-left : 10%;
+            }
+            & p{
+                text-align: justify;
+            }
+        }
+        &-about{
+            display : flex;
+            flex-direction: column;
+            border: 15px solid;
+            border-image: linear-gradient(#0b2c6e, #897d2f) 10;
+            padding: 20px;
+            height: 100%;
+            &-head{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom : 30px;
+                &-title{
+                    margin-top: 40px;
+                    margin-left : 10px;
+                }
+                &-img{
+                    width : 30%;
+                    position: relative;
+                    right : 0;
+                }
+            }
+            &-infos{
+                display : flex;
+                flex-direction: column;
+                text-align: center;
+                &-langages{
+                    & i{
+                        font-size: xx-large;
+                    }
+                }
+            }
+        }
+    }
+}
+// ABOUT END
+// MAIN END
