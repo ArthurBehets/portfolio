@@ -10,7 +10,7 @@ main {
   width: 100%;
   padding-top: 40px;
   background-color: #ced4da;
-  height: 2000px;
+  padding-bottom: 100px;
 }
 
 h1 {
@@ -23,6 +23,15 @@ h2 {
 
 h3 {
   font-size: larger;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .myNav__links {
@@ -58,10 +67,12 @@ h3 {
   justify-content: space-between;
 }
 .presentation__div-motivation {
+  line-height: 25px;
   height: 100%;
 }
 .presentation__div-motivation-title {
   margin-left: 10%;
+  margin-bottom: 20px;
 }
 .presentation__div-motivation p {
   text-align: justify;
@@ -101,6 +112,9 @@ h3 {
 }
 
 @media screen and (min-width: 1300px) {
+  .presentation__div-motivation {
+    line-height: 33px;
+  }
   .presentation__div-about-head-title {
     font-size: 40px;
     margin-left: 10%;
@@ -121,6 +135,43 @@ h3 {
   }
   .presentation__div-about-infos {
     font-size: x-large;
+  }
+}
+.projects__title {
+  margin-left: 10%;
+  margin-bottom: 60px;
+}
+.projects__project {
+  margin-bottom: 60px;
+}
+.projects__project-title {
+  margin-bottom: 20px;
+}
+.projects__project-description i {
+  margin-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.projects__project-images-img {
+  transition: all 1s ease;
+  padding-bottom: 30px;
+}
+.projects__project-images-img:hover {
+  transform: scale(1.5);
+}
+.projects__project-list {
+  margin-left: 2%;
+}
+.projects__project-link {
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 992px) {
+  .projects__project-images-img {
+    margin-bottom: 20px;
+  }
+  .projects__project-images-img:hover {
+    transform: scale(1.2);
   }
 }
 
