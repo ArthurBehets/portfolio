@@ -34,6 +34,15 @@ a {
   color: black;
 }
 
+#navbar {
+  width: 100%;
+  z-index: 1;
+}
+
+.myNav {
+  width: 100%;
+  height: 50px;
+}
 .myNav__links {
   margin-left: 25%;
 }
@@ -43,6 +52,7 @@ a {
   width: 75%;
 }
 .myNav__links-items-dropdown-list-a {
+  scroll-behavior: smooth;
   color: #f8f9fa;
 }
 .myNav__links-items-dropdown-list-a:hover {
@@ -137,9 +147,12 @@ a {
     font-size: x-large;
   }
 }
+.projects {
+  margin-top: 60px;
+}
 .projects__title {
   margin-left: 10%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .projects__project {
   margin-bottom: 60px;
